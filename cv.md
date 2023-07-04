@@ -19,3 +19,11 @@ I like programming, I study every day and never stop learning something new.
 * Git, GitHub
 * Figma
 * BEM-methodology
+
+## Code example:
+    function summ(a,b){return a+b} finishSumm=summ(10,20); alert finishSumm;
+
+## Languages:
+* Belarusian
+* Russian
+* English (A1, A2- in process)
