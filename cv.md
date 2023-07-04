@@ -27,3 +27,7 @@ I like programming, I study every day and never stop learning something new.
 * Belarusian
 * Russian
 * English (A1, A2- in process)
+
+## Cources:
+* Book (https://learn.javascript.ru/)
+* YouTube
