@@ -128,3 +128,34 @@ main {
     justify-content: space-between;
     padding: 0 20px;
 }
+
+.about_pagination {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+
+}
+
+.about_pagination_item_1 {
+    width: 16px;
+    height: 16px;
+    background: #BB945F;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.about_pagination_item_2 {
+    width: 16px;
+    height: 16px;
+    background: #0C0C0E;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.about_pagination_item_3 {
+    width: 16px;
+    height: 16px;
+    background: #0C0C0E;
+    border-radius: 50%;
+    margin: 0 10px;
+}
