@@ -399,3 +399,114 @@ label {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drinks {
+    display: flex;
+}
+
+.deserts {
+    display: flex;
+}
+
+.menu_names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_name_1 {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.menu_name_2 {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.deserts h3 {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.drinks_name {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.deserts_name {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.menu_line li{
+    width: 100px;
+    border-top: 1px solid #BB945F;
+    margin-top: 22px;
+    margin-bottom: auto;
+}
+
+.drinks_name, .deserts_name {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.drinks_cost {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.deserts_cost {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    list-style-type: none;
+}
