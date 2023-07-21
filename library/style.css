@@ -65,19 +65,20 @@ a {
 .page {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     font-family: Forum;
+    flex: 1 0 auto;
 }
 main {
     width: 100%;
     background-image:url(img/page_bg.png);
     color: #FFFFFF;
-    background-size: no-repeat;
+    background-size: contain;
     background-position: center;
     height: 600px;
-    width: 1440px;
+    flex: 1 1 auto;
 }
 
 .main_title {
@@ -575,3 +576,218 @@ label {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+.library_title {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.library_line {
+    width: 50px;
+    border-top: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.library_left {
+    margin-left: 20px;
+}
+
+.library_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lib_button {
+    display: inline-flex;
+    padding: 10px 40px;
+    align-items: flex-end;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    background: #FFF;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.lib_button:hover {
+    transition: all .3s linear;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+    color: #0C0C0E;
+}
+
+.form-control {
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin-left: 16px;
+}
+
+.form {
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    margin: 0 auto;
+}
+
+.form_name {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+}
+
+.form_card {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;
+}
+
+.libr_left_title {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.text_card {
+    width: 456px;
+    height: 253px;
+    flex-shrink: 0;
+}
+.text_card h3 {
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: right;
+}
+
+.text_body {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rb_1  {
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-right: 20px;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.rb_2  {
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.rb_1:hover {
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    transition: all .3s linear;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+    color: #0C0C0E;
+}
+
+.rb_2:hover {
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    transition: all .3s linear;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+    color: #0C0C0E;
+}
+
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background: #000;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+
