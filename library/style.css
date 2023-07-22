@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -55,6 +56,10 @@ nav ul li {
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
+}
+
+.prof_sv {
+    margin: 0 20px;
 }
 
 a {
@@ -136,32 +141,55 @@ main {
     display: flex;
     justify-content: center;
     margin: 40px 0px;
+    align-items: center;
 
 }
 
 .about_pagination_item_1 {
+    width: 26px;
+    height: 26px;
+    background: #ffffff;
+}
+
+.pag_it1 {
     width: 16px;
     height: 16px;
     background: #BB945F;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .about_pagination_item_2 {
+    width: 26px;
+    height: 26px;
+    background: #ffffff;
+}
+
+.pag_it2 {
     width: 16px;
     height: 16px;
     background: #0C0C0E;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .about_pagination_item_3 {
+    width: 26px;
+    height: 26px;
+    background: #ffffff;
+}
+
+.pag_it3 {
     width: 16px;
     height: 16px;
     background: #0C0C0E;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 5px;
 }
+
+
+
+
 
 .favorites_title {
     color: #0C0C0E;
@@ -884,5 +912,33 @@ label {
 .f_3 p {
     display: inline-block;
 }
+/*STYLE NAVIGATION*/
+.about1:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
+.favorites1:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
+.coffee_shop1:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.contacts1:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.library_card1:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
